@@ -1,26 +1,43 @@
 body {
-  font-family: 'Oxygen', sans-serif;
-  background-color: #f6f6f6;
+  font-size: 16px;
+  color: #333;
+  background-color: #fcfcfc;
 }
 
 #header-nav {
   background-color: #f8f8f8;
   border-radius: 0;
   border: 0;
+  border-bottom: 2px solid #e7e7e7;
   margin-bottom: 0;
 }
 
-.navbar-brand {
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
   font-size: 1.5em;
-  font-weight: bold;
   text-transform: uppercase;
-  color: #555 !important;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
-/* Mobile dropdown background and text */
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  #collapsable-nav {
+    display: none !important;
+  }
+}
+
+#collapsable-nav {
+  background-color: #fcfcfc;
+}
+
 #nav-list {
-  background-color: #fff;
-  border-top: 1px solid #e7e7e7;
   margin: 0;
 }
 
@@ -31,34 +48,27 @@ body {
 }
 
 #nav-list li a:hover {
-  background-color: #efefef;
+  background-color: #E7E7E7;
 }
 
-/* Page heading styling */
-h1 {
+/* Page Heading */
+h2 {
   margin-top: 30px;
   margin-bottom: 30px;
   font-weight: bold;
 }
 
-/* The tall section styling */
-#tall-section {
-  background-color: #999;
-  color: #fff;
+/* Tall Content Section */
+#menu-content {
+  background-color: #999999;
   padding: 20px;
-  margin-bottom: 50px;
+  color: white;
   min-height: 1000px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
-#tall-section p {
+#menu-content p {
   font-size: 1.2em;
   line-height: 1.6;
-}
-
-@media (max-width: 767px) {
-  .navbar-collapse {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  margin-bottom: 20px;
 }
