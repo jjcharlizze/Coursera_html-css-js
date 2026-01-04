@@ -1,0 +1,64 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #f6f6f6;
+}
+
+#header-nav {
+  background-color: #f8f8f8;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555 !important;
+}
+
+/* Mobile dropdown background and text */
+#nav-list {
+  background-color: #fff;
+  border-top: 1px solid #e7e7e7;
+  margin: 0;
+}
+
+#nav-list li a {
+  color: #555;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 15px;
+}
+
+#nav-list li a:hover {
+  background-color: #efefef;
+}
+
+/* Page heading styling */
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* The tall section styling */
+#tall-section {
+  background-color: #999;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+  min-height: 1000px;
+  border-radius: 5px;
+}
+
+#tall-section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
