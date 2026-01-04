@@ -14,8 +14,10 @@
   <nav id="header-nav" class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <!-- Brand Name -->
-        <a class="navbar-brand" href="#">Food, LLC</a>
+        <!-- Brand Name - Aligned Left -->
+        <a class="navbar-brand" href="index.html">
+          <h1>Food, LLC</h1>
+        </a>
 
         <!-- Mobile Toggle Button (Visible only on xs) -->
         <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -26,37 +28,38 @@
         </button>
       </div>
 
-      <!-- Collapsable items (Only visible on xs when expanded) -->
-      <div id="collapsable-nav" class="collapse navbar-collapse visible-xs">
-        <ul id="nav-list" class="nav navbar-nav text-center">
-          <li><a href="#">Chicken</a></li>
-          <li><a href="#">Beef</a></li>
-          <li><a href="#">Sushi</a></li>
+      <!-- Collapsable items -->
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+          <li class="text-center"><a href="#">Chicken</a></li>
+          <li class="text-center"><a href="#">Beef</a></li>
+          <li class="text-center"><a href="#">Sushi</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page Content -->
+  <!-- Main Content Area -->
   <div id="main-content" class="container">
-    <h1 class="text-center">Our Menu</h1>
+    <h2 class="text-center">Our Menu</h2>
 
-    <!-- Grid Section -->
     <div class="row">
       <div class="col-xs-12">
-        <section id="tall-section">
+        <section id="menu-content">
           <p>
-            This is a single tall section that takes up the entire width of the row (col-xs-12).
-            It is designed to be tall enough to force scrolling on all device sizes.
+            This section is designed to be very tall to demonstrate scrolling. Bootstrap's grid system is used with 'col-xs-12' to ensure it takes up the full width across all screen sizes (Mobile, Tablet, and Desktop).
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisi eget nisl elementum porta. Curabitur vel sem non nisl vehicula interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut libero.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+            Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, nisi. Curabitur convallis luctus ipsum. Nam diam.
           </p>
           <p>
-            (Content continues to ensure scrolling...)
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          </p>
+          <p>
+            (Scroll down to see more content...)
           </p>
         </section>
       </div>
